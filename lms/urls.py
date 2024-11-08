@@ -7,5 +7,5 @@ from jjacademy import settings
 
 urlpatterns = [
     #path('admin/', admin.site.urls),
-    path('', views.dashboard, name='dashboard'),
+    path('dashboard/', views.dashboard, name='dashboard'),
 ],
