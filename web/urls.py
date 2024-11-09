@@ -14,9 +14,8 @@ urlpatterns = [
     path('team/', views.team, name='team'),
     path('testimonial/', views.testimonial, name='testimonial'),
     path('error_404/', views.error_404, name='error_404'),
-    path('login/', views.login_page, name='login'),
-    path('register/', views.register_page, name='register'),
+    
     #path('home/', views.home, name='home'),
-    #path('', include('lms.urls')),
+    path('', include('lms.urls')),
 ]
 
